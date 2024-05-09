@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_lists",
+  "info": {
+    "singularName": "student-list",
+    "pluralName": "student-lists",
+    "displayName": "StudentList"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Student_no": {
+      "type": "string"
+    },
+    "Last_name": {
+      "type": "string"
+    },
+    "First_name": {
+      "type": "string"
+    },
+    "Middle_initial": {
+      "type": "string"
+    },
+    "Course": {
+      "type": "string"
+    },
+    "Section": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}
